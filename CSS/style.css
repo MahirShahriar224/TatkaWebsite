@@ -1,0 +1,81 @@
+*{
+
+}
+#pre-header{
+  text-align: center;
+}
+#logo{
+  border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+width: 150px
+}
+#searchIcon{
+  margin-top: 7px;
+  margin-left: 100px;
+  border: 1px solid black !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 0 !important;
+}
+#searchText{
+  border: 1px solid black !important;
+  margin: 7px 1px -0.4px 0 !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 20px !important;
+  cursor: pointer;
+
+}
+.search-box{
+  display: inline-flex;
+  width: 60%;
+}
+
+/*   end of search */
+
+/*   cart,login,signup */
+.menu-bar{
+  float: right;
+}
+.menu-bar ul{
+  display: inline-flex;
+  color: white;
+}
+.featured-item{
+  height: 10px !important;
+  width: 10px !important;
+}
+
+
+/*   cart,login,signup */
+.fa-shopping-basket{
+  margin-right: 5px;
+}
+.fa-user-plus{
+  margin-right: 5px;
+}
+ .fa-sign-in{
+   margin-right: 5px;
+ }
+
+/* card deck */
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 1;
+  }
+}
+
+
+
+#footerManu{
+  color: #ffffff;
+  height: 550px;
+  width: 100%;
+  background-color: black;
+}
