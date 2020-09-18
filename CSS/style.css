@@ -5,14 +5,12 @@
   text-align: center;
 }
 #logo{
-  border: 1px solid #ddd;
-border-radius: 4px;
-padding: 5px;
-width: 150px
+  border-radius: 4px;
+  width: 150px;
 }
 #searchIcon{
   margin-top: 7px;
-  margin-left: 100px;
+  margin-left: 10px;
   border: 1px solid black !important;
   border-top-left-radius: 20px !important;
   border-top-right-radius: 0 !important;
@@ -78,4 +76,25 @@ width: 150px
   height: 550px;
   width: 100%;
   background-color: black;
+}
+#footerIcon a:hover{
+  background-color: #1E88E5;
+
+}
+#productlinks a:hover{
+  color: #004D40;
+  background-color: #DCE775;
+  border-bottom: 1px solid #FFEA00;
+}
+#navbarid a:hover{
+  color: #004D40;
+  background-color: #DCE775;
+  border: 3px solid black;
+  text-decoration:underline;
+  font-weight: bold;
+}
+#customerServiceid a:hover{
+  color: black;
+  background-color:#651FFF;
+  font-weight: bold;
 }
